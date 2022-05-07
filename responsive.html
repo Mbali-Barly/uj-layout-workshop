@@ -19,11 +19,12 @@ body {
          background-color: chartreuse;
      }
  }
+
   .box1 {
       background-color: blue;
       border: 2em solid coral;
       width : 10 cm;
-      padding: 1cm;
+      padding: 2cm 1cm 0.5cm 0cm;
       margin : 1cm;
 
   }  
@@ -31,7 +32,7 @@ body {
       background-color: red ;
       border: 2px solid coral;
       width : 10 cm;
-      padding: 1cm;
+      padding: 2cm 1cm 0.5cm 0cm;
       margin : 1cm;
 }
 h1 {
@@ -40,26 +41,50 @@ h1 {
 h2 {
     background-color: darkcyan;
 }
+h3 {
+    background-color: yellowgreen;
+}
 span {
     background-color: red ;
       border: 2px solid coral;
-      width : 10 cm;
-      padding: 1cm;
-      margin : 3cm;
+      width : 10em;
+      padding: 1em;
+      margin : 3em;
 
 }
-</style>
+.input {
+    margin: 2em;
+}
 
+</style>
+</head>
 <body>
     <h1>My File</h1>
 
-    <h1>One</h1>
     <h2>One</h2>
+    <h3>One</h3>
     <span>This is span</span>
     <span>This is span</span>
     <span>This is span</span>  
+
+    
 <div class = "input">
+    <label for="firstname">first name</label>
+    <input type="text" name="firstname">
     </div>
+
+    <div>
+        <label for="surname">surname</label>
+        <input type="text">
+        </div>
+
+    <div>
+        <input type="text">
+        </div>    
+    
+    <div>
+        <input type="text">
+        </div>  
 
    <!-- <div class="box1">
 Exploring the box model
